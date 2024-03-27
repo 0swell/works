@@ -19,7 +19,7 @@ import searchMovie from "./searchMovie";
       <SearchBar searchTerm={setSearchTerm}/>
       <div details={movieDetails}></div>
       {movieDetails !== "" ? <MovieTemplate movie={movieDetails}/> : null}
-      <div className={classes.Footer}>Ibrahim Berk Bulgan - 2022 - Burdur</div>
+      <div className={classes.Footer}>Osman Öz - 2022 - Burdur</div>
     </div>
   );
 }
